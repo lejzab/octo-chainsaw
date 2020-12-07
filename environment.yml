@@ -1,0 +1,7 @@
+name: octo-chainsaw
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pika=1.1.0
+  - python=3.8.5
