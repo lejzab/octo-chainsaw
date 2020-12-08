@@ -5,9 +5,8 @@ services:
     image: rabbitmq:3-management-alpine
     hostname: broker
     environment:
-      - RABBITMQ_ERLANG_COOKIE=hfgtrwasveq3ass
       - RABBITMQ_DEFAULT_USER=krolik
-      - RABBITMQ_DEFAULT_PASS=sdwan
+      - RABBITMQ_DEFAULT_PASS=karliczek
     ports:
       - 5672:5672
       - 15672:15672
