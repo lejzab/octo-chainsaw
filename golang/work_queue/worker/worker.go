@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/streadway/amqp"
